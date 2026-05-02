@@ -1,7 +1,8 @@
 🐍 Python Basic Projects
 This repository is a collection of my beginner-to-intermediate Python projects, showcasing how I’ve applied programming concepts to build chatbots, games, and calculators. Each project reflects my exploration of logic, creativity, and problem‑solving with Python.
 
-🔹 What’s Inside
+🔹 What’s Inside 
+
 🤖 Chatbots – Interactive bots for learning, problem discussion, and productivity experiments
 
 🎮 Games – Fun mini‑games built with Python logic and user interaction
