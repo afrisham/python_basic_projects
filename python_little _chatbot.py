@@ -26,14 +26,13 @@ def chatbot_response(user_input):
         return "Some popular Python libraries include: 1. NumPy: A library for numerical computing and array manipulation. 2. Pandas: A library for data manipulation and analysis. 3. Matplotlib: A library for creating static, animated, and interactive visualizations. 4. Scikit-learn: A library for machine learning and data mining. 5. TensorFlow: An open-source library for machine learning and deep learning. 6. Keras: A high-level neural networks API that runs on top of TensorFlow. 7. Flask: A micro web framework for building web applications."
     else:
         return "I'm sorry, I don't have information on that topic due to some limitations. Please ask about Python, data science, machine learning, deep learning, or any related topics."
+      
     
-    
-    
-    
-    while True:
+     while True:
+         print("your python_info chatbot is ready type bye or exit to stop disscusion ")
         user_input = input("You: ")
         response = chatbot_response(user_input)
-        if bye in user_input.lower() or "goodbye" in user_input.lower() or "exit" in user_input.lower() or "quit" in user_input.lower():
+        if "bye" in user_input.lower() or "goodbye" in user_input.lower() or "exit" in user_input.lower() or "quit" in user_input.lower():
             print("Chatbot: Goodbye! Have a great day!")
             break
         print ("thanks for chatting with me. if you have any question about python or data science or machine learning or deep learning then ask me. i will try to give you the best answer. see you later!")
