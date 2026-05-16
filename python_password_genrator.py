@@ -21,15 +21,15 @@ if use_symbols:
     characters += string.punctuation
 
 if not characters:
-    print("❌ You must select at least one option.")
+    print(" You must select at least one option.")
 else:
     password = ''.join(random.choice(characters) for _ in range(length))
     print("\nGenerated Password:", password)
 
     # Strength checker
     if length < 6:
-        print("Password Strength: Weak ❌")
+        print("Password Strength: Weak ")
     elif length < 12:
-        print("Password Strength: Moderate ⚠️")
+        print("Password Strength: Moderate ")
     else:
-        print("Password Strength: Strong ✅")
+        print("Password Strength: Strong ")
